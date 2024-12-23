@@ -28,6 +28,6 @@ class RahulRamachandran(Human):
         }
         self.email = "rahulramach3000@gmail.com"
 
-  def befriend(self, name: str):
+    def befriend(self, name: str):
       print(f"Nice to meet you, {name}!")
 ```
