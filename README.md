@@ -14,3 +14,20 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+```python
+class RahulRamachandran(Human):
+
+    def __init__(self):
+        super().__init__()
+  
+        self.name = "Rahul"
+        self.work = {
+            "role": "student 👨🏽‍🎓",
+            "institute": "IIT Hyderabad 🎓"
+        }
+        self.email = "rahulramach3000@gmail.com"
+
+  def befriend(self, name: str):
+      print(f"Nice to meet you, {name}!")
+```
