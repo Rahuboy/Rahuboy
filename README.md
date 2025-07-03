@@ -16,18 +16,23 @@ Here are some ideas to get you started:
 -->
 
 ```python
-class RahulRamachandran(Human):
+class RahulRamachandran:
 
     def __init__(self):
         super().__init__()
   
-        self.name = "Rahul"
+        self.name = "Rahul Ramachandran"
         self.work = {
             "role": "student 👨🏽‍🎓",
             "institute": "IIT Hyderabad 🎓"
         }
-        self.email = "rahulramach3000@gmail.com"
+        self.contact = {
+            "email": "rahulramach3000@gmail.com",
+            "website": "https://rahuboy.github.io/" 
+        }
 
-    def befriend(self, name: str):
-      print(f"Nice to meet you, {name}!")
+    def __str__(self):
+        return f"Hi, I'm {self.name}. I'm a student at IIT Hyderabad passionate about computer science and deep learning."
+
+me = RahulRamachandran()
 ```
