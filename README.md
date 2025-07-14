@@ -19,8 +19,6 @@ Here are some ideas to get you started:
 class RahulRamachandran:
 
     def __init__(self):
-        super().__init__()
-  
         self.name = "Rahul Ramachandran"
         self.work = {
             "role": "student 👨🏽‍🎓",
