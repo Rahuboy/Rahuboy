@@ -22,7 +22,7 @@ class RahulRamachandran:
         self.name = "Rahul Ramachandran"
         self.work = {
             "role": "student 👨🏽‍🎓",
-            "institute": "IIT Hyderabad 🎓"
+            "institute": "UIUC 🎓"
         }
         self.contact = {
             "email": "rahulramach3000@gmail.com",
@@ -30,7 +30,7 @@ class RahulRamachandran:
         }
 
     def __str__(self):
-        return f"Hi, I'm {self.name}. I'm a student at IIT Hyderabad passionate about computer science and deep learning."
+        return f"Hi, I'm {self.name}. I'm a student at UIUC passionate about computer science and deep learning."
 
 me = RahulRamachandran()
 ```
